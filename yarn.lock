@@ -10522,7 +10522,7 @@ __metadata:
     "@types/lodash": ^4.14.189
     "@types/node": ^18.11.9
     "@typescript-eslint/eslint-plugin": ^5.43.0
-    dompurify: ^2.4.1
+    dompurify: ^3.4.13
     eslint: "*"
     eslint-plugin-prettier: "*"
     jest: ^29.3.1
@@ -16812,10 +16812,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^2.4.1":
-  version: 2.4.7
-  resolution: "dompurify@npm:2.4.7"
-  checksum: 13c047e772a1998348191554dda403950d45ef2ec75fa0b9915cc179ccea0a39ef780d283109bd72cf83a2a085af6c77664281d4d0106a737bc5f39906364efe
+"dompurify@npm:^3.4.13":
+  version: 3.4.13
+  resolution: "dompurify@npm:3.4.13"
+  dependencies:
+    "@types/trusted-types": ^2.0.7
+  dependenciesMeta:
+    "@types/trusted-types":
+      optional: true
+  checksum: e4d3c08e453521098557118ffaaa6e2ab42f9222edd57ab592b69946d76127973640df13a9c260da3cf89b6c525ccaa58bf398d0b3aff01c3b7bc3fa589b7260
   languageName: node
   linkType: hard
 
