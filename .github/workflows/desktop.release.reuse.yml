@@ -46,7 +46,7 @@ jobs:
         run: yarn run electron-builder --mac --arm64 --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-macos
           path: |
@@ -93,7 +93,7 @@ jobs:
           yarn run electron-builder --linux --x64 -c.linux.target=AppImage --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-appimage-x64
           path: |
@@ -138,7 +138,7 @@ jobs:
           yarn run electron-builder --linux --arm64 -c.linux.target=AppImage --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-appimage-arm64
           path: |
@@ -249,7 +249,7 @@ jobs:
           yarn run electron-builder --linux --x64 -c.linux.target=deb --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-deb-x64
           path: |
@@ -294,7 +294,7 @@ jobs:
           yarn run electron-builder --linux --arm64 -c.linux.target=deb --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-deb-arm64
           path: |
@@ -347,7 +347,7 @@ jobs:
         run: review-tools.snap-review dist/standard-notes-${{ env.APP_VERSION }}-linux-amd64.snap
 
       - name: Upload
-        uses: actions/upload-artifact@v4.0.0
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-snap
           path: |

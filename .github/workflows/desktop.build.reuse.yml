@@ -41,7 +41,7 @@ jobs:
       - name: MacArm64
         run: yarn run electron-builder --mac --arm64 --publish=never --config electron-builder.unsigned.cjs --c.extraMetadata.version=${{ env.APP_VERSION }}
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-macos
           retention-days: 7
@@ -82,7 +82,7 @@ jobs:
       - name: AppImageX64
         run: yarn run electron-builder --linux --x64 -c.linux.target=AppImage --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-appimage-x64
           retention-days: 7
@@ -121,7 +121,7 @@ jobs:
       - name: AppImageArm64
         run: yarn run electron-builder --linux --arm64 -c.linux.target=AppImage --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-appimage-arm64
           retention-days: 7
@@ -160,7 +160,7 @@ jobs:
           yarn run webpack --config desktop.webpack.prod.js --env deb
           yarn run electron-builder --linux --x64 -c.linux.target=deb --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-deb-x64
           retention-days: 7
@@ -201,7 +201,7 @@ jobs:
           yarn run webpack --config desktop.webpack.prod.js --env deb
           yarn run electron-builder --linux --arm64 -c.linux.target=deb --publish=never --c.extraMetadata.version=${{ env.APP_VERSION }}
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-linux-deb-arm64
           retention-days: 7
@@ -243,7 +243,7 @@ jobs:
         shell: bash
         run: yarn run electron-builder --windows --x64 --ia32 --publish=never --config electron-builder.unsigned.cjs --c.extraMetadata.version=$APP_VERSION
       - name: Upload
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7.0.1
         with:
           name: dist-windows
           retention-days: 7
