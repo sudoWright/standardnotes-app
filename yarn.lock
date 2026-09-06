@@ -10844,7 +10844,7 @@ __metadata:
     qrcode.react: ^3.1.0
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-refresh: ^0.14.0
+    react-refresh: ^0.18.0
     sass: ^1.77.6
     sass-loader: "*"
     svg-jest: ^1.0.1
@@ -27727,6 +27727,13 @@ __metadata:
   version: 0.14.0
   resolution: "react-refresh@npm:0.14.0"
   checksum: dc69fa8c993df512f42dd0f1b604978ae89bd747c0ed5ec595c0cc50d535fb2696619ccd98ae28775cc01d0a7c146a532f0f7fb81dc22e1977c242a4912312f4
+  languageName: node
+  linkType: hard
+
+"react-refresh@npm:^0.18.0":
+  version: 0.18.0
+  resolution: "react-refresh@npm:0.18.0"
+  checksum: c27d236e7b38f4a09c2b0134e6227fa62e2b71edad5f22bab40962fc0deba9e0f16930609a82b6a021ef4b4f0a4d405cf0fbb2b51a0f478809619a8226f20379
   languageName: node
   linkType: hard
 
