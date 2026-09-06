@@ -9841,7 +9841,7 @@ __metadata:
     fs-extra: ^11.1.1
     lodash: ^4.17.21
     mime-types: ^2.1.35
-    mobx: ^6.10.2
+    mobx: ^7.0.0
     prettier: "*"
     proxyquire: ^2.1.3
     rimraf: ^3.0.2
@@ -10729,7 +10729,7 @@ __metadata:
     eslint: "*"
     eslint-plugin-prettier: "*"
     jest: ^29.3.1
-    mobx: ^6.8.0
+    mobx: ^7.0.0
     mobx-react-lite: ^3.4.2
     ts-jest: ^29.0.3
     ttag: ^1.8.12
@@ -10834,7 +10834,7 @@ __metadata:
     lint-staged: ">=13"
     mini-css-extract-plugin: ^2.7.2
     minimatch: ^5.1.1
-    mobx: ^6.8.0
+    mobx: ^7.0.0
     mobx-react-lite: ^3.4.2
     npm-check-updates: "*"
     postcss: ^8.4.19
@@ -24603,17 +24603,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mobx@npm:^6.10.2":
-  version: 6.10.2
-  resolution: "mobx@npm:6.10.2"
-  checksum: 14d6f1db4e3a61c823510ea130229c96bd4958b77d81057ac1abc6a439703eaf3ea2289192ef205b4250d3adb1d83a439ad56d5e53f2b967c6e62a6bccc23d8a
-  languageName: node
-  linkType: hard
-
-"mobx@npm:^6.8.0":
-  version: 6.10.0
-  resolution: "mobx@npm:6.10.0"
-  checksum: 8279d5a978d845664fb1830ce1e7f3fcebd5809bd9be6f2cac9b190e07cf6f16b09581107cc2d1ff7097e979da758fefd9ac68db76c814b8e783e59d0b8e418c
+"mobx@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "mobx@npm:7.0.0"
+  checksum: 8a8269b3bab00f55561367240b61d9c5234c87117d8d237e83d87243bc4977e79c7b3e9fc6704b2ec1e443020ae6bc006cba15d63b4f05382c41223c6a7281c2
   languageName: node
   linkType: hard
 
