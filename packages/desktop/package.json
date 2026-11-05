@@ -52,7 +52,7 @@
     "fs-extra": "^11.1.1",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
-    "mobx": "^6.10.2",
+    "mobx": "^7.0.0",
     "ttag": "^1.8.12"
   },
   "devDependencies": {
